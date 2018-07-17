@@ -1,0 +1,242 @@
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 90910
+
+
+Insert sql is INSERT INTO peer  ( "name","requests","server_hostname" ) VALUES( $1,$2,$3  ) RETURNING *;
+Insert sql is INSERT INTO orderer  ( "requests","server_hostname" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 1
+INSERT ID: 1
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 6
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","channelname" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO channel  ( "name","createdt","blocks","trans","channel_hash" ) VALUES( $1,$2,$3,$4,$5  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 4
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 9
+Successfully received the block event[object Object]
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+Received kill signal, shutting down gracefully
+Closed out remaining connections
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+db error { Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }
+/Users/huytran/HyperLedger/GettingStarted/blockchainexplorer/blockchain-explorer/app/persistance/postgreSQL/db/pgservice.js:54
+        throw err;
+        ^
+
+Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 91925
+
+
+Insert sql is INSERT INTO peer  ( "name","requests","server_hostname" ) VALUES( $1,$2,$3  ) RETURNING *;
+Insert sql is INSERT INTO orderer  ( "requests","server_hostname" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 1
+INSERT ID: 1
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","channelname" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 10
+INSERT ID: 6
+Insert sql is INSERT INTO channel  ( "name","createdt","blocks","trans","channel_hash" ) VALUES( $1,$2,$3,$4,$5  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO blocks  ( "blocknum","channelname","prehash","datahash","blockhash","txcount","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 4
+Insert sql is INSERT INTO transaction  ( "channelname","blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12  ) RETURNING *;
+INSERT ID: 9
+Successfully received the block event[object Object]
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+locate: illegal option -- r
+usage: locate [-0Scims] [-l limit] [-d database] pattern ...
+
+default database: `/var/db/locate.database' or $LOCATE_PATH
+Received kill signal, shutting down gracefully
+Closed out remaining connections

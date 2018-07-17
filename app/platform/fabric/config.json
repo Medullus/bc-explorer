@@ -1,0 +1,31 @@
+	{
+	"network-config": {
+		"org1": {
+			"name": "Org1",
+			"mspid": "Org1MSP",
+			"peer1": {
+				"requests": "grpc://peer0.org1.example.com:7051",
+				"events": "grpc://peer0.org1.example.com:7053",
+				"server-hostname": "peer0.org1.example.com"
+			},
+			"admin": {
+				"key": "/opt/usr/fabric/crypto/v1.1/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore",
+				"cert": "/opt/usr/fabric/crypto/v1.1/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
+			}
+		}
+	},
+	"channel": "foo",
+	"orderers":[
+				{
+				"mspid": "OrdererMSP",
+				"server-hostname":"orderer.example.com",
+				"requests":"grpc://orderer.example.com:7050"
+				}
+				],
+	"keyValueStore": "/tmp/fabric-client-kvs",
+	"configtxgenToolPath": "/opt/usr/fabric/bin",
+	"eventWaitTime": "30000",
+	"license": "Apache-2.0",
+	"version": "1.1"
+	}
+
