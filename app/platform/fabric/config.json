@@ -9,8 +9,8 @@
 				"server-hostname": "peer0.org1.example.com"
 			},
 			"admin": {
-				"key": "/Users/marek.bejda/IdeaProjects/bros-networkStartup/networkup/docker/crypto/single/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore",
-				"cert": "/Users/marek.bejda/IdeaProjects/bros-networkStartup/networkup/docker/crypto/single/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
+				"key": "/opt/usr/fabric/crypto/v1.1/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore",
+				"cert": "/opt/usr/fabric/crypto/v1.1/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
 			}
 		}
 	},
@@ -23,7 +23,7 @@
 				}
 				],
 	"keyValueStore": "/tmp/fabric-client-kvs",
-	"configtxgenToolPath": "/Users/marek.bejda/fabric/fabric-samples/bin",
+	"configtxgenToolPath": "/opt/usr/fabric/bin",
 	"eventWaitTime": "30000",
 	"license": "Apache-2.0",
 	"version": "1.1"
