@@ -1,6 +1,7 @@
 {
+	"channel":"foo",
 	"pg": {
-		"host": "postgresql",
+		"host": "127.0.01",
 		"port": "5432",
 		"database": "fabricexplorer",
 		"username": "hppoc",

@@ -15,7 +15,7 @@ import {
   NavbarToggler
 } from 'reactstrap';
 import AdminPanel from '../Panels/AdminPanel';
-import Logo from '../../static/images/Explorer_Logo.svg';
+import Logo from '../../static/images/Transparent.png';
 import FontAwesome from 'react-fontawesome';
 import Drawer from 'material-ui/Drawer';
 import Button from 'material-ui/Button';

@@ -59,8 +59,8 @@ div.menuItems > nav{
 .logo{
     /* width: 365px;
     height: 70px; */
-    width: 260px;
-    height: 50px;
+    /*width: 260px;*/
+    height: 70px;
 }
 /* Dashboard */
  .count-card{
@@ -174,8 +174,8 @@ div.menuItems > nav{
 }
 /* Landing page css */
 .landing{
-    margin-top: 450px;
-    margin-left: 550px;
+    margin-top: 200px;
+    margin-left: 30%;
 }
 .landing > h1{
     font-size: 40pt;

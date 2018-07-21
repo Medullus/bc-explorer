@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { connect } from 'react-redux';
-import Logo from '../../static/images/Explorer_Logo.svg';
+import Logo from '../../static/images/Transparent.png';
 import { countHeader } from '../../store/actions/header/action-creators';
 import { peerList, peerStatus } from '../../store/actions/peer/action-creators';
 import { blockList } from '../../store/actions/block/action-creators';
@@ -37,7 +37,7 @@ export class LandingPage extends Component {
       },
       logoStyle: {
         width: '520px',
-        height: '100px'
+        // height: '200px'
       }
     }
   }
