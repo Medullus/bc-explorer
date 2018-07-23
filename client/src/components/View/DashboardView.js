@@ -46,7 +46,7 @@ export class DashboardView extends Component {
   setNotifications = (blockList) => {
     let notificationsArr = [];
     if (blockList !== undefined) {
-      for (let i = 0; i < 3 && this.props.blockList && this.props.blockList[i]; i++) {
+      for (let i = 0; i < 10 && this.props.blockList && this.props.blockList[i]; i++) {
         const block = this.props.blockList[i];
         const notify = {
           'title': `Block ${block.blocknum} Added`,
@@ -101,14 +101,18 @@ export class DashboardView extends Component {
               <OrgPieChart txByOrg={this.props.txByOrg} />
             </Col>
           </Row>
-          <Row className="lower-dash">
-            <Col lg="6">
+
+          <Row >
+            <Col lg="12">
               <TimelineStream notifications={this.state.notifications} />
             </Col>
+          </Row>
+          <Row  className="lower-dash">
             <Col lg="6">
               <PeersHealth peerStatus={this.props.peerStatus} channel={this.props.channel.currentChannel} />
             </Col>
           </Row>
+
         </div >
       </div>
     );

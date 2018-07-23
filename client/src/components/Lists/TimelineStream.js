@@ -21,23 +21,23 @@ class TimelineStream extends Component {
 
     render() {
         return (
-            <div className="activity-stream">
+            <div className="activity-streamm">
                 <Card >
                     <CardHeader>
                         <h5>Activity</h5>
                     </CardHeader>
                     <CardBody >
-                        <div className="scrollable-card">
-                            <Timeline >
+                        <div className="scrollable-card" style={{"overflow-x":"scroll"}}>
+                            <Timeline style={{ width:"9999px"}}>
                                 {this.props.notifications.map(item =>
+                                    <div style={{ float:"left"}} class="timeline-event">
                                     <TimelineEvent key={item.title} title={item.title}
                                         icon={<FontAwesome name="cube" />}
                                         iconColor="#0D3799"
                                         container="card"
                                         titleStyle={{ fontWeight: "bold" }}
-                                        style={{ width: "400px" }}
-                                        cardHeaderStyle={{ backgroundColor: "#6283D0", fontSize: "13pt" }}
-                                        buttons={<FontAwesome name="play-circle"  />}>
+                                        style={{ width: "400px", float: "left" }}
+                                        cardHeaderStyle={{ backgroundColor: "#6283D0", fontSize: "13pt" }}>
                                         <Typography variant="body1">
                                             <b> Datahash:</b> {item.datahash} <br />
                                             <b> Number of Tx:</b> {item.txcount}
@@ -47,7 +47,7 @@ class TimelineStream extends Component {
                                                 <Timeago date={item.time} live={false} minPeriod={60} />
                                             </Badge>
                                         </h5>
-                                    </TimelineEvent>
+                                    </TimelineEvent></div>
                                 )}
                             </Timeline>
                         </div>
