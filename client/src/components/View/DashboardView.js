@@ -18,6 +18,7 @@ import FontAwesome from 'react-fontawesome';
 export class DashboardView extends Component {
   constructor(props) {
     super(props);
+    console.log(this.props);
     this.state = {
       notifications: []
     }
@@ -38,14 +39,16 @@ export class DashboardView extends Component {
     setInterval(() => {
       this.props.getTxByOrg(this.props.channel.currentChannel);
       this.props.getCountHeader(this.props.channel.currentChannel);
-    }, 3000);
-
-    this.setNotifications(this.props.blockList)
+      this.props.getBlockList(this.props.channel.currentChannel, 0);
+      this.setNotifications(this.props.blockList)
+    }, 4000);
+      this.setNotifications(this.props.blockList)
   }
 
   setNotifications = (blockList) => {
     let notificationsArr = [];
     if (blockList !== undefined) {
+      console.log(blockList);
       for (let i = 0; i < 10 && this.props.blockList && this.props.blockList[i]; i++) {
         const block = this.props.blockList[i];
         const notify = {

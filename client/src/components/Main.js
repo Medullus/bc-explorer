@@ -69,6 +69,7 @@ export const Main = (props) => {
     peerList: props.peerList,
     txByOrg: props.txByOrg,
     getTxByOrg: props.getTxByOrg,
+    getBlockList: props.getBlockList,
     getCountHeader: props.getCountHeader
   }
 
