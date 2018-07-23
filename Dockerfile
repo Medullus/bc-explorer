@@ -10,4 +10,4 @@ RUN chmod +x wait-for-postgres.sh
 EXPOSE 8080
 CMD ["npm", "start", ">>logs/console/console.log-'$(date +%Y-%m-%d)'", "2>&1", "&"]
 
-#docker build -t huytran88/bc-explorer .
+#docker build -t fabricbros/bc-explorer .
